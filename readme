@@ -1,0 +1,9 @@
+# start application
+```nodemon index.js```
+
+# all api 
+  ``` post register user :- http://localhost:3000/api/register,
+      get users for admin role and search and filter :- http://localhost:3000/api/users?filter=india&search=ma (search by email and name)
+      require token in Authentication in that Bearer Token 
+      post login user :- http://localhost:3000/api/login
+      get user by id if admin then it get all user by id and if Staff then get only his own data :- http://localhost:3000/api/users/7 ```
